@@ -5,14 +5,7 @@ Parameters:
   MyKeyName:
     Description: Select the Key Name
     Type: AWS::EC2::KeyPair::KeyName
-  MyEnvironmentName:
-    Description: Select the environment 
-    Type: String
-    Default: dev
-    AllowedValues: 
-      - dev
-      - prod
-    ConstraintDescription: must be development or production      
+     
 
 Mappings:     
   MyRegionMap:
